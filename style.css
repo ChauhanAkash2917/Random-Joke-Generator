@@ -1,0 +1,86 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background with gradient */
+body {
+  background: linear-gradient(135deg, red 0%, blue 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main container */
+.container {
+  width: 100%; 
+  max-width: 500px;
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+/* Jokes container */
+.jokes-container {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.2) , inset 8px 8px 16px rgba(225, 225, 255, 0.25);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Joke setup */
+.joke-setup {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Joke punchline */
+.joke-punchline {
+  font-size: 1.3rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.joke-btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: #ff4b2b;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Button Hover Effect */
+.joke-btn:hover {
+  background: #ad357f;
+  transform: scale(1.05);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
