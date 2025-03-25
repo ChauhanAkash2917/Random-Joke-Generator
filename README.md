@@ -1,4 +1,4 @@
-[**🎉 Random Joke Generator (API Calling) 🤖🎤**](https://chauhanakash2917.github.io/Random-Joke-Generator-API-)
+[**🎉 Random Joke Generator (API Calling) 🤖🎤**](https://chauhanakash2917.github.io/Random-Joke-Generator/)
 
 
 A fun and engaging web application that fetches and displays random jokes from an API. Whether you need a quick laugh or want to lighten up your mood, this tool is perfect for you! 😆
